@@ -1,13 +1,16 @@
 # 📈 Stock Trading Strategy Simulation using Python
 
-## 📌 Overview
-This project simulates a stock trading strategy using predicted returns and compares it with the traditional Buy & Hold strategy.
+🚀 Beginner-friendly Algorithmic Trading Project
 
-## 🎯 Objectives
-- Generate buy/sell signals using predicted returns
-- Simulate trading performance
-- Compare with Buy & Hold
-- Evaluate using financial metrics
+## 📌 Overview
+💡 This project demonstrates a simplified backtesting approach used in real-world algorithmic trading systems.
+
+## 🧠 Key Features
+- Rule-based trading strategy using predicted returns
+- Signal generation (Buy/Sell)
+- Portfolio simulation with ₹10,000 initial capital
+- Performance evaluation using Sharpe Ratio & Drawdown
+- Visual analysis using multiple graphs
 
 ## 🛠️ Technologies Used
 - Python
@@ -23,11 +26,16 @@ This project simulates a stock trading strategy using predicted returns and comp
 5. Compute strategy returns
 6. Evaluate performance
 
-## 📊 Performance Metrics
+## 📈 Strategy Evaluation
+
+The model evaluates performance using:
+
 - Annual Return
 - Volatility
-- Sharpe Ratio
+- Sharpe Ratio (Risk-adjusted return)
 - Maximum Drawdown
+
+These metrics help in understanding both profitability and risk.
 
 ## 📈 Results
 The strategy is compared with Buy & Hold using:
@@ -35,10 +43,15 @@ The strategy is compared with Buy & Hold using:
 - Capital growth
 - Trade analysis
 
-## 🚀 Future Scope
-- Use LSTM for prediction
-- Apply Reinforcement Learning
-- Real-time trading system
+## ⚠️ Limitations
+- Predicted returns are simulated (not from ML model)
+- No transaction cost included
+- Single stock analysis
 
+## 🚀 Future Improvements
+- Integrate LSTM / Deep Learning models
+- Add Reinforcement Learning trading agent
+- Use real-time stock data APIs
+  
 ## 👨‍💻 Author
 Honey Ranjan
