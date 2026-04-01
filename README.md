@@ -1,6 +1,10 @@
 # 📈 Stock Trading Strategy Simulation using Python
 
-🚀 Beginner-friendly Algorithmic Trading Project
+🚀 Beginner-friendly Algorithmic Trading & Backtesting Project
+
+## 🔍 Problem Statement
+Stock market prediction is challenging due to high volatility. 
+This project explores how predicted returns can be converted into trading decisions and evaluates whether such a strategy can outperform a Buy & Hold approach.
 
 ## 📌 Overview
 💡 This project demonstrates a simplified backtesting approach used in real-world algorithmic trading systems.
@@ -18,13 +22,16 @@
 - Pandas
 - Matplotlib
 
-## ⚙️ Methodology
+## 🔄 Workflow
+
 1. Load stock price data
-2. Calculate market returns
+2. Calculate daily returns
 3. Generate predicted returns
-4. Create trading signals
-5. Compute strategy returns
-6. Evaluate performance
+4. Create Buy/Sell signals
+5. Avoid look-ahead bias
+6. Compute strategy returns
+7. Compare with Buy & Hold
+8. Evaluate performance
 
 ## 📈 Strategy Evaluation
 
@@ -37,11 +44,22 @@ The model evaluates performance using:
 
 These metrics help in understanding both profitability and risk.
 
-## 📈 Results
-The strategy is compared with Buy & Hold using:
-- Cumulative returns
-- Capital growth
-- Trade analysis
+## 📈 Results & Analysis
+
+- Strategy vs Buy & Hold comparison
+- Capital growth visualization
+- Profit per trade analysis
+- Risk evaluation using drawdown
+
+💡 This project demonstrates a simplified backtesting approach used in real-world algorithmic trading systems.
+
+## 📊 Output Visualizations
+
+![Strategy Graph](image1.png)
+![Buy Sell Signals](image2.png)
+![Capital Growth](image3.png)
+
+
 
 ## ⚠️ Limitations
 - Predicted returns are simulated (not from ML model)
