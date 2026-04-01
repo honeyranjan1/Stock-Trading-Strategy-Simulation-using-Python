@@ -54,11 +54,11 @@ These metrics help in understanding both profitability and risk.
 💡 This project demonstrates a simplified backtesting approach used in real-world algorithmic trading systems.
 
 ## 📊 Output Visualizations
-
+![Actual vs Predicted Stock Price](image4.png)
 ![Strategy Graph](image1.png)
 ![Buy Sell Signals](image2.png)
 ![Capital Growth](image3.png)
-
+![Return per Trade](image5.png)
 
 
 ## ⚠️ Limitations
